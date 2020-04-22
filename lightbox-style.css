@@ -30,7 +30,7 @@
     height: 50px;
     cursor: pointer;
     transition: ease .2s;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .close-lightbox:hover {
@@ -54,7 +54,7 @@
 
 .switch-box {
     position: absolute;
-    z-index: 3;
+    z-index: 10000;
     display: flex;
     justify-content: space-between;
     font-size: 70px;
